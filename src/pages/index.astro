@@ -1,0 +1,14 @@
+---
+import Layout from '@layout'
+import Generator from '@components/Generator.jsx'
+import '@fontsource/poppins'
+---
+
+<Layout title='Color Generator'>
+	<style>
+		body {
+			font-family: 'Poppins', sans-serif;
+		}
+	</style>
+	<Generator client:only='react' />
+</Layout>
